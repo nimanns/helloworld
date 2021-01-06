@@ -1,19 +1,25 @@
 {
-  "name": "helloworld",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nimanns/helloworld.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nimanns/helloworld/issues"
-  },
-  "homepage": "https://github.com/nimanns/helloworld#readme"
+    "name": "helloworld",
+    "version": "1.0.0",
+    "private": true,
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nimanns/helloworld.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/nimanns/helloworld/issues"
+    },
+    "homepage": "https://github.com/nimanns/helloworld#readme",
+    "devDependencies": {
+        "webpack": "^5.11.1",
+        "webpack-cli": "^4.3.1"
+    }
 }
